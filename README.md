@@ -8,6 +8,22 @@ A login page can lock people out: a CAPTCHA a screen reader can't read, a one-ti
 
 ---
 
+## Screenshots
+
+### Report a barrier and review reports
+
+<p align="center">
+  <a href="files/report-form.png"><img src="files/report-form.png" alt="Accessible form for anonymously reporting a sign-in or account-recovery barrier" width="320"></a>
+  <a href="files/reviewer-dashboard.png"><img src="files/reviewer-dashboard.png" alt="Reviewer dashboard for triaging reports, reviewing suggestions, and controlling publication" width="320"></a>
+</p>
+
+### Public directory and mobile view
+
+<p align="center">
+  <a href="files/directory.png"><img src="files/directory.png" alt="Public directory showing reviewed accessibility reports and confirmed fixes" width="320"></a>
+  <a href="files/mobile.png"><img src="files/mobile.png" alt="Responsive mobile view of the public issue directory" width="240"></a>
+</p>
+
 ## How it works
 
 ```mermaid
@@ -116,6 +132,8 @@ See `.env.example`. Never commit real passwords; `.env` and `data/` are already 
 server.js        HTTP server, API, validation, auth, rate limits
 test.js          Automated tests (node:test)
 public/          Front end: index.html, app.js, style.css
+files/           README screenshots and related project files
+LICENSE          MIT License
 .env.example     Configuration template
 ```
 
@@ -145,4 +163,4 @@ Issues and pull requests are welcome. Please keep changes consistent with the pr
 
 ## License
 
-No license has been chosen yet. Add a `LICENSE` file (for example MIT) to let others reuse the code.
+This project is licensed under the [MIT License](LICENSE).
