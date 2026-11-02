@@ -1,0 +1,9 @@
+{
+  "name": "secure-access-atlas",
+  "version": "0.2.0",
+  "description": "Privacy-first reporting and review of login and account-recovery accessibility barriers.",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node server.js", "test": "node --test" }
+}
